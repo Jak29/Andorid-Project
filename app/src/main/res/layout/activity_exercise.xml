@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background3"
+    tools:context=".ExerciseActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:paddingTop="30dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Step by Step to make a Volcano!"
+        android:textColor="@color/black"
+        android:textSize="50dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="1. Combine the vinegar, water, dish soap and 2 drops of food coloring into the empty soda bottle."
+        android:textColor="#303030"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="2. Use a spoon to mix the baking soda slurry until it is all a liquid."
+        android:textColor="#303030"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="3. Eruption time! … Pour the baking soda slurry into the soda bottle quickly and step back!"
+        android:textColor="#303030"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+</LinearLayout>
